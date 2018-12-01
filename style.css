@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+/* reset css */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 article,
+section,
+aside,
+nav,
+header,
+footer,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    height: 73px;
+    color: yellow;
+}
+
+header {
+    height: 518px;
+    width: 100%;
+    border: 10px solid red;
+    background-image: url("http://picsum.photos/1500/600?image=1001");
+    background-size: cover;
+    padding-top: 66px;
+
+}
+
+.header-contant {
+    width: 945px;
+    height: 233px;
+    border: 5px solid blue;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 66px;
+    font-size: 66px;
+    font-weight: 900;
+    text-align: center;
+    font-family: DFKai-SB, BiauKai, Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 900px;
+    height: 500px;
+    font-size: 67px;
+    font-family: DFKai-SB, BiauKai, Arial, Helvetica, sans-serif;
+}
